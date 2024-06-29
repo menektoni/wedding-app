@@ -1,0 +1,161 @@
+/* Reset and basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    font-family: 'Aurelia';
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 1.1rem; /* Adjust paragraph font size */
+    margin-bottom: 10px;
+    color: #3e3e3e;
+  }
+
+  .small-spacing {
+    margin-bottom: 2px; /* Adjust this value to set the desired spacing */
+    display: block;
+  }
+
+  .boddy-position{
+    margin-top: 20px;
+  }
+  
+  .body-characteristics {
+    margin-top: 0px; /* Adjusted margin top below the header */
+}
+
+  .footer-button{
+    margin-top: 20px; /* Adjust the margin to position the button above the footer */
+  }
+
+  body {
+    font-family: 'Trajan Pro'; /* Example: Use an elegant font family */
+    font-size: 16px;
+    background-color: #f2f2f2; /* Light background color */
+    color: #333; /* Dark text color */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */ 
+  }
+  
+  header {
+    background-color: #f2f2f2; /* Dark matte gray */
+    padding: 50px;
+    width: 100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    gap:48px;
+    position:fixed;
+    text-align: center; /* Center text within header */
+    top: 0; /* Align to top of the page */
+    left: 0; /* Align to the left of the page */
+    z-index: 1000; /* Ensure header is on top of other elements */
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center the list items */
+    align-items: center; /* Center the list items vertically */
+    gap: 50px; /* Increase the gap between navigation items */
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    color: #000000; 
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin-top: 100px; /* Adjust to ensure content is below the fixed header */
+    margin-bottom: 100px;
+}
+  
+  .intro {
+    background-color: #ddd; /* Light gray */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1;
+    padding: 0px 20px;
+    height: 100vh;
+  }
+
+  .footer-button-container {
+    display: flex;
+    justify-content: center; /* Center the button horizontally */
+    align-items: center; /* Center vertically */
+    padding: 20px 0; /* Adjusted padding for spacing */
+    position: absolute;
+    bottom: 60px; /* Adjusted position above the footer */
+    width: 100%;
+}
+
+  .button-rellenar-formulario {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 8px;
+    background-color: #2a694f; /* Modern, clean color */
+    padding: 14px 24px;
+    border-radius: 8px;
+    color: white;
+    border: none; /* Remove border for a clean look */
+    cursor: pointer; /* Pointer cursor for better UX */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
+  }
+
+  .button-rellenar-formulario:hover {
+    background-color: #1d563b; /* Slightly darker shade for hover effect */
+    transform: scale(1.02); /* Slight scaling for a modern hover effect */
+  }
+
+
+  footer {
+    background-color: #f2f2f2; 
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+  
+
+  
+
+  
