@@ -2,13 +2,14 @@ import React from 'react';
 
 const FormPage = () => {
   return (
-    <main>
+    <div className="container">
+    <main className="main-content">
       <section>
-        <h1>RSVP Form</h1>
-        <p>Form content...</p>
-        <a href="https://your-google-form-url" target="_blank" rel="noopener noreferrer">Link to Google Form</a>
+        <h1>Información General</h1>
+        <p>Toda la información que necesitas saber para la boda.</p>
       </section>
     </main>
+    </div>
   );
 };
 
