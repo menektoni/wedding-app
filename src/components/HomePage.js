@@ -2,7 +2,7 @@ import React from 'react';
 
 const HomePage = () => {
   return (
-    <div className="container">
+    <div className="container whole-page">
         <main className="main-content">
             <section class="body-position">
                 <section class="body-characteristics">    
