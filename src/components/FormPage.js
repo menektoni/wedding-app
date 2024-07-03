@@ -1,4 +1,6 @@
 import React from 'react';
+import basilicaImage from '../images/basilica.jpg';
+import cortijoImage from '../images/cortijo.jpeg'
 
 const FormPage = () => {
   return (
@@ -14,9 +16,24 @@ const FormPage = () => {
             <p>C. de San Justo, 4, Centro, 28005 Madrid</p>
           </div>
           <div className="image-right">
-            <img src="/images/basilica.jpg" alt="Imagen de la Basilica" />
+            <img src={basilicaImage} alt="Imagen de la Basilica" />
           </div>
+        </section>
 
+        <section className="celebracion">
+          <div className="image-left">
+            <img src={cortijoImage} alt="Imagen del Cortijo" />
+          </div>
+          <div className="text-right">
+            <h1>Celebración</h1>
+            <p>Cortijo de Mónico</p>
+            <p>Carretera de Villanueva del Pardillo M-851, Km. 1.5.<br />28222 Majadahonda, Madrid</p>
+          </div>
+        </section>
+
+
+        <section className="single-info">
+          
         </section>
       </section>
     </main>
