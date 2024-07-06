@@ -170,9 +170,9 @@
   padding: 20px; /* Adjust padding as needed */
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
 }
 
 .grid-item h2 {
