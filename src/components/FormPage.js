@@ -31,39 +31,53 @@ const FormPage = () => {
           </div>
         </section>
 
-
+        <div className="grid-wrapper">
         <div className="grid-container">
-          <div className="grid-item">
-            <h2>Horario</h2>
-              <p>Ida: a la salida de los novios</p>
-              <p>Vuelta: <br></br>
-                22:30h Primer autobus <br></br>
-                00:15h Segundo autobus <br></br>
-                00:30h Tercer Autobus
+            <div className="column">
+            <h1 className="column-title">Autobuses</h1>
+              <div className="grid-item">
+                <h2>Horario</h2>
+                  <p>Ida: a la salida de los novios</p> <br></br>
+                  <p>Vuelta: <br></br>
+                    22:30h Primer autobus <br></br>
+                    00:15h Segundo autobus <br></br>
+                    00:30h Tercer Autobus
+                    </p>
+              </div>
+              <div className="grid-item">
+              <h2>Paradas</h2>
+              <p>A la vuelta los autobuses pararán en: <br></br>
+              <ol>
+                <li>Bernabéu</li>
+                <li>Cibeles</li>
+                </ol>
                 </p>
+              </div>
           </div>
-          <div className="grid-item">
-           <h2>Paradas</h2>
-           <p>A la vuelta los autobuses pararán en: <br></br>
-           <ol>
-            <li>Bernabéu</li>
-            <li>Cibeles</li>
-            </ol>
-            </p>
+          <div className="column">
+            <h1 className="column-title">Dónde aparcar</h1>
+            <div className="grid-item">
+              <h2>Basílica Pontificia de San Miguel</h2>
+              <p><ul>
+                  <li>Plaza de Oriente, 1 (a 7 mins andando)</li>
+                  <li>Felipe III, 11 (a 7 mins andando)</li>
+                  <li> Plaza de las Descalzas, s/n (a 10 mins andando)</li>
+                </ul></p>
+            </div>
+            <div className="grid-item">
+              <h2>Cortijo de Mónico</h2>
+              <p>Dentro de la finca hay un parking con capacidad para 300 vehículos</p>
+            </div>
           </div>
-          <div className="grid-item">
-            <h2>Basílica Pontificia de San Miguel</h2>
-            <p><ul>
-                <li>Plaza de Oriente, 1 (a 7 mins andando)</li>
-                <li>Felipe III, 11 (a 7 mins andando)</li>
-                <li> Plaza de las Descalzas, s/n (a 10 mins andando)</li>
-              </ul></p>
-          </div>
-          <div className="grid-item">
-            <h2>Cortijo de Mónico</h2>
-            <p>Dentro de la finca hay un parking con capacidad para 300 vehículos</p>
-          </div>
-      </div>
+        </div>
+        <div className="single-grid-item">
+          <h2>Regalo</h2>
+          <p>Para nosotros, el regalo es que vengas a la boda.<br></br> De todas maneras, si quieres ayudarnos en esta aventura que empezamos, nuestra cuenta bancaria es:
+            <br></br>ES77 0182 5322 2502 0848 4978 <br></br>
+            ¡Muchísimas Gracias!
+          </p>
+        </div>
+        </div>
 
     </section>
     </main>
