@@ -32,10 +32,40 @@ const FormPage = () => {
         </section>
 
 
-        <section className="single-info">
-          
-        </section>
-      </section>
+        <div className="grid-container">
+          <div className="grid-item">
+            <h2>Horario</h2>
+              <p>Ida: a la salida de los novios</p>
+              <p>Vuelta: <br></br>
+                22:30h Primer autobus <br></br>
+                00:15h Segundo autobus <br></br>
+                00:30h Tercer Autobus
+                </p>
+          </div>
+          <div className="grid-item">
+           <h2>Paradas</h2>
+           <p>A la vuelta los autobuses pararán en: <br></br>
+           <ol>
+            <li>Bernabéu</li>
+            <li>Cibeles</li>
+            </ol>
+            </p>
+          </div>
+          <div className="grid-item">
+            <h2>Basílica Pontificia de San Miguel</h2>
+            <p><ul>
+                <li>Plaza de Oriente, 1 (a 7 mins andando)</li>
+                <li>Felipe III, 11 (a 7 mins andando)</li>
+                <li> Plaza de las Descalzas, s/n (a 10 mins andando)</li>
+              </ul></p>
+          </div>
+          <div className="grid-item">
+            <h2>Cortijo de Mónico</h2>
+            <p>Dentro de la finca hay un parking con capacidad para 300 vehículos</p>
+          </div>
+      </div>
+
+    </section>
     </main>
     </div>
   );
