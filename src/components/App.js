@@ -11,6 +11,7 @@ const App = () => {
   return (
     <Router>
       <Header />
+      <div className="spacer"></div>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/GeneralInfo" element={<FormPage />} />
