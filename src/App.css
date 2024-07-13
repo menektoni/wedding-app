@@ -17,6 +17,10 @@
     color: #3e3e3e;
   }
 
+  a {
+    color: #3e3e3e;
+  }
+
   .small-spacing {
     margin-bottom: 2px; /* Adjust this value to set the desired spacing */
     display: block;
@@ -40,7 +44,7 @@
  }
  
   body {
-    font-family: 'Trajan Pro'; /* Example: Use an elegant font family */
+    /* font-family: 'Trajan Pro'; /* Example: Use an elegant font family */
     font-size: 16px;
     background-color: #f2f2f2; /* Light background color */
     color: #333; /* Dark text color */
@@ -155,6 +159,56 @@
     text-align: center;
     padding: 20px 0;
     width: 100%;
+}
+
+/* Styles for the ceremonia section */
+.ceremonia {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  text-align: left;
+}
+
+.ceremonia .text-left {
+  flex: 1;
+  padding: 20px;
+}
+
+.ceremonia .image-right {
+  flex: 1.2;
+  display: flex;
+  justify-content: center;
+}
+
+.ceremonia .image-right img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Styles for the celebracion section */
+.celebracion {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  text-align: left;
+}
+
+.celebracion .image-left {
+  flex: 1.2;
+  display: flex;
+  justify-content: center;
+}
+
+.celebracion .image-left img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.celebracion .text-right {
+  flex: 1;
+  padding: 30px;
 }
 
 .grid-wrapper {

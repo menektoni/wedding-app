@@ -13,7 +13,7 @@ const FormPage = () => {
           <div className="text-left">
             <h1>Ceremonia</h1>
             <p>13.30h Basílica Pontificia de San Miguel</p>
-            <p>C. de San Justo, 4, Centro, 28005 Madrid</p>
+            <a href="https://maps.app.goo.gl/uspLPsrZ3BKosDZ27">C. de San Justo, 4, Centro, 28005 Madrid</a>
           </div>
           <div className="image-right">
             <img src={basilicaImage} alt="Imagen de la Basilica" />
@@ -27,7 +27,7 @@ const FormPage = () => {
           <div className="text-right">
             <h1>Celebración</h1>
             <p>Cortijo de Mónico</p>
-            <p>Carretera de Villanueva del Pardillo M-851, Km. 1.5.<br />28222 Majadahonda, Madrid</p>
+            <a href="https://maps.app.goo.gl/XmHeuwxpRgu3Pyro9">Carretera de Villanueva del Pardillo M-851, Km. 1.5.<br />28222 Majadahonda, Madrid</a>
           </div>
         </section>
 
