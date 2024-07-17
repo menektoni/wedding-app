@@ -1,6 +1,10 @@
 import React from 'react';
 
 const HomePage = () => {
+    const handleButtonClick = () => {
+        window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfYdZvGtpAmY0NaVLHxMSEa2zTeTRG5HTqYgXPl-lvYf_c0eQ/viewform?usp=sf_link";
+      };
+    
   return (
     <div className="container whole-page">
         <main className="main-content">
@@ -16,7 +20,7 @@ const HomePage = () => {
             </section>
 
             <div className="footer-button-container">
-                <button class="button-rellenar-formulario" href="https://docs.google.com/forms/d/e/1FAIpQLSfYdZvGtpAmY0NaVLHxMSEa2zTeTRG5HTqYgXPl-lvYf_c0eQ/viewform?usp=sf_link">
+                <button class="button-rellenar-formulario" onClicke={handleButtonClick}>
                     Rellenar Formulario
                 </button>
             </div>
