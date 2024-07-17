@@ -16,7 +16,7 @@ const HomePage = () => {
             </section>
 
             <div className="footer-button-container">
-                <button class="button-rellenar-formulario" href="locowin.com">
+                <button class="button-rellenar-formulario" href="https://docs.google.com/forms/d/e/1FAIpQLSfYdZvGtpAmY0NaVLHxMSEa2zTeTRG5HTqYgXPl-lvYf_c0eQ/viewform?usp=sf_link">
                     Rellenar Formulario
                 </button>
             </div>
