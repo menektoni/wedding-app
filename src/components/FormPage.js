@@ -7,8 +7,10 @@ const FormPage = () => {
     <div className="container">
     <main className="main-content">
       <section>
-        <h1>Información General</h1>
-        <p>Toda la información que necesitas saber para la boda.</p>
+        <div className="top-title">
+          <h1>Información General</h1>
+          <p>Toda la información que necesitas saber para la boda.</p>
+        </div>
         <section className="ceremonia">
           <div className="text-left">
             <h1>Ceremonia</h1>
