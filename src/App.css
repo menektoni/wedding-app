@@ -16,6 +16,14 @@ body {
   justify-content: center;
 }
 
+.body-characteristics h1 {
+  font-size: clamp(2.4rem, 2vw, 4.0rem);;
+}
+
+.body-characteristics p {
+  font-size: clamp(1.4rem, 2vw, 2.5rem);;
+}
+
 .main-content {
   display: flex;
   justify-content: center;
@@ -119,6 +127,7 @@ header nav ul li a:hover {
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
+  font-size: clamp(1.4rem, 2vw, 2.5rem);
 }
 
 .button-rellenar-formulario:hover {
