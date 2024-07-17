@@ -20,7 +20,7 @@ const HomePage = () => {
             </section>
 
             <div className="footer-button-container">
-                <button class="button-rellenar-formulario" onClicke={handleButtonClick}>
+                <button class="button-rellenar-formulario" onClick={handleButtonClick}>
                     Rellenar Formulario
                 </button>
             </div>
