@@ -14,7 +14,6 @@ body {
   flex-direction: column;
   min-height: 100vh;
   justify-content: center;
-  align-items: center;
 }
 
 .main-content {
@@ -65,7 +64,7 @@ header nav ul {
 header nav ul li a {
   color: #000;
   text-decoration: none;
-  font-size: 12px;
+  font-size: clamp(1.2rem, 2vw, 2.5rem);
 }
 
 header nav ul li a:hover {
@@ -132,7 +131,6 @@ footer {
   padding: 20px 0;
   width: 100%;
   margin-top: auto;
-  position: absolute;
 }
 
 /* Styles for the ceremonia section */
@@ -238,5 +236,11 @@ footer {
       position: static;
       margin-top: 20px;
       padding: 10px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  header nav ul li a {
+    font-size: 1.2rem; /* Ensure a readable size on small screens */
   }
 }
