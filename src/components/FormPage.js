@@ -73,8 +73,8 @@ const FormPage = () => {
           </div>
         </div>
         <div className="single-grid-item">
-          <h2>Regalo</h2>
-          <p>Para nosotros, el regalo es que vengas a la boda.<br></br> De todas maneras, si quieres ayudarnos en esta aventura que empezamos, nuestra cuenta bancaria es:
+          <p>Nuestro mejor regalo es vuestra compañía. <br /> Pero si además queréis colaborar en <br /> el proyecto de vida que vamos a empezar, <br />
+          podéis hacerlo a través de la siguiente cuenta:
             <br></br>ES77 0182 5322 2502 0848 4978 <br></br>
             ¡Muchísimas Gracias!
           </p>
