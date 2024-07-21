@@ -41,9 +41,7 @@ const FormPage = () => {
                 <h2>Horario</h2>
                   <p>Ida: a la salida de los novios</p> <br></br>
                   <p>Vuelta: <br></br>
-                    22:30h Primer autobus <br></br>
-                    00:15h Segundo autobus <br></br>
-                    00:30h Tercer Autobus
+                    Al final de la boda (00:30) salida de los 3 autobuses.
                     </p>
               </div>
               <div className="grid-item">
